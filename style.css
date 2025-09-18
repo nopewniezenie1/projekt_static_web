@@ -5,6 +5,13 @@ body {
     text-align: center;
 }
 
+main{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
 strong{
     color: rgb(21, 74, 22); 
 }
@@ -51,7 +58,42 @@ td, th{
     border: solid 2px rgb(192, 192, 192);
 }
 
-ul, ol {
+ul, ol{
     text-align: left;
     display: inline-block;
-  }
+}
+
+caption{
+    padding: 20px;
+}
+
+#firstletter::first-line{
+    font-size: 22px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.klasa, .klasa h1, .klasa h3{
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  margin: 0;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav li{
+  margin-left: 30px;
+}
+
+nav a{
+  text-decoration: none;
+}
