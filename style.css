@@ -23,3 +23,9 @@ img{
     justify-content: center;
     text-align: center;
 }
+
+#g2, #fnatic, #bilibili, #geng, #t1, #firststand, #msi, #worlds{
+   width: 30px; 
+   vertical-align: middle;
+   margin-right: 10px;
+}
