@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif; 
     font-size: 16px; 
-    line-height: 1.5; 
+    line-height: 1.5;
+    text-align: center;
 }
 
 strong{
@@ -29,3 +30,28 @@ img{
    vertical-align: middle;
    margin-right: 10px;
 }
+
+#lol, #riotgames{
+    padding: 20px;
+    border: solid 2px darkgray;
+    border-radius: 15px
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tr:nth-child(even){
+    background-color: rgb(238, 238, 238);
+}
+
+td, th{
+    padding: 8px;
+    border: solid 2px rgb(192, 192, 192);
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+  }
