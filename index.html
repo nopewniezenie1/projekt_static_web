@@ -7,7 +7,7 @@
     <title>Gra komputerowa League of Legends</title>
 </head>
 <body>
-    <header>
+    <header id="top">
             <div class="klasa">
                 <h1>League of Legends</h1>
                 <h3>Najpopularniejsza MOBA</h3>
@@ -17,15 +17,17 @@
                 <li><a href="#otemacie">O temacie</a></li>
                 <li><a href="#historia">Historia</a></li>
                 <li><a href="#esport">E-sport</a></li>
+                <li><a href="#dodatkoweinformacje">Dodatkowe informacje</a></li>
             </ul>
         </nav>
     </header>
+    <hr>
     <main>
         <section id="otemacie">
             <h2>O Temacie</h2>
                 <p id="firstletter"><strong>League of Legends</strong> (LoL) to wieloosobowa gra komputerowa typu <mark>MOBA</mark></p>
                 <p>Stworzona i wydana przez <em><a href="https://pl.wikipedia.org/wiki/Riot_Games" target="_blank" rel="noopener">Riot Games</a></em> w <strong>2009 roku.</strong></em></p> 
-                <p>W League of Legends gracze rywalizują w <strong>drużynach</strong>, starając się zniszczyć bazę przeciwnika, jednocześnie broniąc swojej własnej. Każdy gracz wybiera unikalnego bohatera z różnymi umiejętnościami i stylami gry.</p>
+                <p>W League of Legends gracze rywalizują w <strong>drużynach</strong>, starając się zniszczyć <abbr title="Ostateczna struktura w bazie przeciwnika, jej zniszczenie kończy gre.">nexus</abbr> przeciwnika, jednocześnie broniąc swojej własnej. Każdy gracz wybiera unikalnego bohatera z różnymi umiejętnościami i stylami gry.</p>
             <div id="logaloliriot">
                 <figure>
                     <img id="lol" src="images/lol.png" alt="League of Legends" width="210">
@@ -53,7 +55,7 @@
                         <tr>
                             <td>27 października 2009 roku</td>
                             <td>Oficjalna premiera gry</td>
-                            <td>Początek jednej z największych gier MOBA</td>
+                            <td>Początek jednej z pierwszych gier MOBA</td>
                         </tr>
                         <tr>
                             <td>Od 18 do 20 czerwca 2011 roku</td>
@@ -62,7 +64,7 @@
                         </tr>
                         <tr>
                             <td>9 listopada 2014</td>
-                            <td>Nowa wersja mapy Summoners Rift</td>
+                            <td>Nowa wersja mapy <mark>Summoner's Rift</mark></td>
                             <td>Największa aktualizacja wizualna w historii LoL</td>
                         </tr>
                         <tr>
@@ -85,15 +87,40 @@
                 </ul>
             </div>
                 <p>Największe turnieje E-sportowe League of Legends ułożone w kolejności od najwcześniejszych w roku do najpóźniejszych:
-                    <ol>
-                        <li><img id="firststand" src="images/firststand.png" alt="First Stand">First Stand skr. FS (Początek marca, wygrana drużyna zapewnia sobie miejsce w MSI omijając faze <mark>PLAY-IN</mark>)</li>
+                    <ol start="1">
+                        <li><img id="firststand" src="images/firststand.png" alt="First Stand">First Stand skr. FS (Początek marca, wygrana drużyna zapewnia sobie miejsce w MSI omijając faze <mark>Play-in</mark>)</li>
                         <li><img id="msi" src="images/msi.png" alt="Mid-Season Invitational">Mid-Season Invitational skr. MSI (Od końca czerwca do początku lipca, wygrana drużyna zapewnia sobie miejsce na Worldsach) </li>
                         <li><img id="worlds" src="images/worlds.png" alt="World Championship">World Championship skr. Worlds (Od początku października do połowy listopada, wygrana drużyna zostaje mistrzem świata w danym roku) </li>
                     </ol>
                 </p>
-        
+        </section>
+        <section id="dodatkoweinformacje">
+            <h2>Dodatkowe informacje, ciekawostki, FAQ</h2>
+                <p>Czy wiedziałeś że w League of Legends można zagrać także na Linux? Wystarczy wpisać tą komende w konsoli recznym zainstalowaniu na wine:</p>
+                <pre><code>wine LeagueClient.exe</code></pre>
+            <h2>FAQ</h2>
+                <details>
+                    <summary>Od kiedy grasz w League of Legends?</summary>
+                    <p>W LoL'a gram od całkiem dawna, dokładniej od <time datetime="2018-04-24">24 kwietnia 2018 roku</time>, wtedy kuzyn pokazał mi tą gre na moich urodzinach.</p>
+                </details>
+                <details>
+                    <summary>Jaką postacią grasz?</summary>
+                    <p>Aktualnie nie gram jedną postacią jednak kiedyś grałem bardzo dużo Viego.</p>
+                </details>
+            <h2>Wyjaśnienie definicji zaznaczonych na stronie:</h2>
+                <dl>
+                    <dt><mark>MOBA</mark></dt>
+                    <dd>Gra komputerowa, w której dwie drużyny kontrolują bohaterów i rywalizują na mapie, aby zniszczyć bazę przeciwnika.</dd>
+
+                    <dt><mark>Summoner's Rift</mark></dt>
+                    <dd>Główna mapa w grze League of Legends, na której toczą się standardowe mecze 5 na 5.</dd>
+
+                    <dt><mark>Play-in</mark></em></dt>
+                    <dd>Faza turnieju, w której drużyny walczą o miejsce w głównych rozgrywkach.</dd>
+                </dl>
         </section>
     </main>
+    <hr>
     <footer>
         <p><small>2025 Władysław Szutta</small></p>
     </footer>
