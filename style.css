@@ -4,6 +4,22 @@ body {
     line-height: 1.5; 
 }
 
-strong {
-    color: rgb(126, 24, 24); 
+strong{
+    color: rgb(21, 74, 22); 
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+}
+
+img{
+    max-width: 100%;
+}
+
+#logaloliriot{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
 }
