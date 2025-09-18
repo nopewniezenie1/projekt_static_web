@@ -1,0 +1,1 @@
+# projekt_static_web
