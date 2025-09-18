@@ -57,6 +57,39 @@ figure{
     margin-bottom: 50px
 }
 
+#kontakt{
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    border: solid 2px rgb(208, 208, 208);
+    border-radius: 15px;
+    margin-bottom: 20px
+}
+
+aside{
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    border: solid 2px rgb(208, 208, 208);
+    border-radius: 15px;
+    margin-bottom: 50px;
+    max-width: 850px;
+    margin: auto;
+}
+
+blockquote {
+    background: #acff633e;
+    border-left: 5px solid #6ab04c;
+    padding: 10px 15px;
+    font-style: italic;
+}
+
+blockquote cite {
+    display: block;
+    text-align: right;
+    font-style: italic;
+    color: #6ab04c;
+
+}
+
 h1{
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -170,4 +203,39 @@ pre{
 
 dd, dl{
     margin: auto;
+}
+
+#imieinazwisko, #email{
+    margin: 8px;
+    width: 750px;
+    height: 26px;
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 5px;
+}
+
+#wiadomosc{
+    width: 750px;
+    margin: 8px;
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 5px;
+}
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 94, 215);
+    border: 1px solid rgb(102, 102, 102);
+    width: 750px;
+    height: 34px;
+    border-radius: 5px
+}
+
+input:focus, textarea:focus{
+    background-color: aliceblue;
+    outline: none;
+}
+
+#powrot{
+    color: rgb(8, 0, 255);
+    text-decoration: none;
+    font-weight: bold;
 }
